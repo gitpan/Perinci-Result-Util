@@ -1,0 +1,43 @@
+NAME
+    Perinci::Result::Util - Utilities related to enveloped result
+
+VERSION
+    version 0.01
+
+SYNOPSIS
+     use Perinci::Result::Util qw(is_env_res);
+
+     say is_env_res([200, "OK"]); # 1
+     say is_env_res("ok");        # 0
+
+FUNCTIONS
+  is_env_res($res) => BOOL
+    Return true if $res looks like enveloped result.
+
+SEE ALSO
+    Rinci::function
+
+HOMEPAGE
+    Please visit the project's homepage at
+    <https://metacpan.org/release/Perinci-Result-Util>.
+
+SOURCE
+    Source repository is at
+    <https://github.com/sharyanto/perl-Perinci-Result-Util>.
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    <https://rt.cpan.org/Public/Dist/Display.html?Name=Perinci-Result-Util>
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
+
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2014 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
